@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Prime Legacy — Frontend Demo</title>
+<title>Infinity Mobile — Official</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,sans-serif}
 body{background:#070b12;color:#fff;min-height:100vh}
@@ -32,7 +32,7 @@ footer{text-align:center;padding:25px;color:#667588;border-top:1px solid #1c2a3c
 </head>
 <body>
 <header>
-<div class="logo">PRIME LEGACY</div>
+<div class="logo">Infinity Mobile </div>
 <nav>
 <button onclick="showPage('home')">Home</button>
 <button onclick="showPage('apply')">Application</button>
@@ -44,14 +44,14 @@ footer{text-align:center;padding:25px;color:#667588;border-top:1px solid #1c2a3c
 <div id="home" class="page active">
 <div class="hero">
 <div>
-<h1>Welcome to <span class="blue">Prime Legacy</span></h1>
+<h1>Welcome to <span class="blue">Infinity Mobile</span></h1>
 <p>A modern CRMP roleplay project with Police, EMS, Government, Jobs, Gangs and a professional administration system.</p>
 <button class="btn primary" onclick="showPage('apply')">APPLY NOW</button>
 <button class="btn dark" onclick="showPage('login')">ADMIN PANEL</button>
 </div>
 </div>
 <section>
-<div class="title"><h2>Server Features</h2><p>Everything players need for the Prime Legacy experience.</p></div>
+<div class="title"><h2>Server Features</h2><p>Everything players need for the Infinity Mobile experience.</p></div>
 <div class="cards">
 <div class="card"><h3>Police Department</h3><p>Protect citizens and maintain law and order.</p></div>
 <div class="card"><h3>EMS</h3><p>Respond to emergencies and help players.</p></div>
@@ -65,9 +65,9 @@ footer{text-align:center;padding:25px;color:#667588;border-top:1px solid #1c2a3c
 
 <div id="apply" class="page">
 <section class="form-wrap">
-<div class="form-title"><h2>Prime Legacy Application</h2><p>Submit your application for a server position.</p></div>
+<div class="form-title"><h2>Infinity Mobile Application</h2><p>Submit your application for a server position.</p></div>
 <div class="panel">
-<div class="notice">Frontend demo: applications are stored only in this browser.</div>
+<div class="notice">A: applications are stored only in this browser.</div>
 <form id="applicationForm">
 <label>Full Name</label><input id="name" required placeholder="Your name">
 <label>Discord Username</label><input id="discord" required placeholder="username">
@@ -111,10 +111,10 @@ footer{text-align:center;padding:25px;color:#667588;border-top:1px solid #1c2a3c
 </div>
 </main>
 
-<footer>© 2026 Prime Legacy — Frontend Demo</footer>
+<footer>© 2026 Infinity Mobile — Frontend Demo</footer>
 
 <script>
-const key='primeLegacyApps';
+const key='infintymobileApps';
 function getApps(){return JSON.parse(localStorage.getItem(key)||'[]')}
 function saveApps(a){localStorage.setItem(key,JSON.stringify(a))}
 function showPage(id){
